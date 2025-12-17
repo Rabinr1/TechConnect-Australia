@@ -232,29 +232,26 @@
         </div>
 
         <div class="contact-form-container">
-            <h3>Need help fast? Fill out the form below.</h3>
-            <form action="mailto:support@techconnectaustralia.com.au" method="GET" enctype="text/plain">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject / Type of Issue</label>
-                    <input type="text" id="subject" name="subject" required
-                        placeholder="My WiFi is slow / Need a PC built">
-                </div>
-                <div class="form-group">
-                    <label for="body">Your Message (Please include your phone number if you prefer a call)</label>
-                    <textarea id="body" name="body" required
-                        placeholder="Please describe your issue in detail."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary form-submit-btn">
-                    Email (Opens your Mail App)
-                </button>
-                <p style="text-align: center; font-size: 0.85rem; color: var(--secondary-text); margin-top: 1rem;">
-                    *Clicking 'Email TechConnAU' will open your device's default email program.
-                </p>
-            </form>
+    <h3>Need help fast?</h3>
+    <p style="margin-bottom: 1.5rem; color: var(--secondary-text);">Please contact us using the details below:</p>
+
+    <div class="form-group">
+        <label>Our Support Email</label>
+        <p style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; background: #f9f9f9;">
+            support@techconnectaustralia.com.au
+        </p>
+    </div>
+
+    <a href="mailto:support@techconnectaustralia.com.au?subject=Support Request&body=Name:%0D%0AIssue:%0D%0APhone Number:" 
+       class="btn btn-primary form-submit-btn" 
+       style="display: block; text-align: center; text-decoration: none; margin-top: 1rem;">
+        Click to Email TechConnAU
+    </a>
+
+    <p style="text-align: center; font-size: 0.85rem; color: var(--secondary-text); margin-top: 1rem;">
+        *This will open your device's default email program securely.
+    </p>
+</div>
         </div>
         <div class="contact-flow">
             <h3>My Simple, Stress-Free Process</h3>
@@ -283,5 +280,6 @@
 
     <script src="script.js"></script>
 </body>
+
 
 </html>
