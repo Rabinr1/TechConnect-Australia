@@ -1,231 +1,1200 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Details | Tech Connect Australia</title>
-    <link rel="stylesheet" href="style.css"> 
-
-    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <title>Service Details | Tech Connect Australia - IT Support Services</title>
+    <meta name="description" content="Detailed breakdown of professional IT services including network setup, computer repair, data backup, tech training, and custom PC builds with transparent pricing.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://techconnectaustralia.com.au/services.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techconnectaustralia.com.au/services.html">
+    <meta property="og:title" content="Service Details | Tech Connect Australia - IT Support Services">
+    <meta property="og:description" content="Detailed breakdown of professional IT services including network setup, computer repair, data backup, tech training, and custom PC builds with transparent pricing.">
+    <meta property="og:image" content="https://techconnectaustralia.com.au/assets/images/services-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://techconnectaustralia.com.au/services.html">
+    <meta property="twitter:title" content="Service Details | Tech Connect Australia - IT Support Services">
+    <meta property="twitter:description" content="Detailed breakdown of professional IT services including network setup, computer repair, data backup, tech training, and custom PC builds with transparent pricing.">
+    <meta property="twitter:image" content="https://techconnectaustralia.com.au/assets/images/services-og.jpg">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#0066cc">
+    <meta name="msapplication-TileColor" content="#0066cc">
+    <meta name="theme-color" content="#0066cc">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="favicon/favicon-96x96.png" alt="TechConnAU Logo">
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="full-service-menu.html">Service Details</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-toggle" id="mobileToggle">☰</button>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-primary">TechConnect</span>
+                        <span class="brand-secondary">AUSTRALIA</span>
+                    </div>
+                </a>
+                
+                <div class="nav-menu">
+                    <div class="nav-links">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html#about" class="nav-link">About</a>
+                        <a href="index.html#services" class="nav-link">Services</a>
+                        <a href="services.html" class="nav-link active">Service Details</a>
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                    
+                    <div class="nav-cta">
+                        <a href="tel:0451331921" class="btn btn-small btn-primary">
+                            <i class="fas fa-phone"></i> 0451 331 921
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="nav-toggle" aria-label="Menu">
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                </button>
+            </div>
         </div>
     </nav>
 
-    <section class="hero" style="padding-top: 8rem; text-align: center; background: var(--bg-card);">
-        <h1>
-            Your <span class="highlight">Service Catalog</span>
-        </h1>
-        <p style="font-size: 1.15rem; color: var(--text-body);">
-            Detailed breakdowns of the solutions I provide to ensure you have complete clarity and confidence.
-        </p>
-        <div class="cta-buttons">
-            <a href="#service-start" class="btn btn-secondary">Jump to Details</a>
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Service <span class="highlight">Details</span></h1>
+                <p>Comprehensive breakdown of our professional IT services with transparent pricing and clear deliverables.</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Service Details</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="service-start">
-        <h2>Service <span class="highlight">Deep Dives</span></h2>
-        <p class="section-subtitle">Here is what each service involves, ensuring transparent and effective results.</p>
-        
-        <div class="detailed-service-section" id="network-wifi-details">
-            <h2>1. High-Speed, Reliable <span class="highlight">NBN & Wi-Fi Configuration</span> 🌐</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: Slow, Dropping, & Insecure Internet</h4>
-                <p>In Australia, slow NBN speeds, weak Wi-Fi signals in certain rooms, and devices that constantly drop out are common frustrations. You need a fast, stable connection that supports your work, streaming, and smart home devices without interruption.</p>
-                
-                <h4>What TechConnAU Delivers: Professional Network Optimisation</h4>
-                <p>I apply my dedicated networking expertise to go beyond basic setup. This isn't just plugging in a router; it's a systematic assessment and professional configuration for maximum performance.</p>
-                
-                <ul>
-                    <li>**Modem & Router Configuration:** Optimising your NBN connection and modem settings to ensure you receive the fastest speed possible from your ISP.</li>
-                    <li>**Wi-Fi Coverage Assessment:** Strategic placement of your modem and router to eliminate "dead spots" and ensure strong, reliable signal coverage across your entire home or small office.</li>
-                    <li>**Advanced Security Protocols:** Setting strong, modern WPA3/WPA2 security and private guest networks to safeguard your data and prevent unauthorized access.</li>
-                    <li>**Bandwidth Prioritization (QoS):** Configuring Quality of Service (QoS) to prioritize essential activities (like work video calls) over less urgent tasks (like background downloads).</li>
-                    <li>**Hardware Upgrade Recommendations:** Honest advice on whether you need a Wi-Fi extender, a Mesh system, or a simple upgrade to fix the problem—no unnecessary sales pitches.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Start Your Network Fix</a>
+    <!-- Service Navigation -->
+    <section class="service-navigation">
+        <div class="container">
+            <div class="service-tabs" id="serviceTabs">
+                <button class="service-tab active" data-service="network">
+                    <i class="fas fa-wifi"></i>
+                    <span>Network & WiFi</span>
+                </button>
+                <button class="service-tab" data-service="repair">
+                    <i class="fas fa-desktop"></i>
+                    <span>System Repair</span>
+                </button>
+                <button class="service-tab" data-service="backup">
+                    <i class="fas fa-database"></i>
+                    <span>Data Backup</span>
+                </button>
+                <button class="service-tab" data-service="training">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Tech Training</span>
+                </button>
+                <button class="service-tab" data-service="assembly">
+                    <i class="fas fa-server"></i>
+                    <span>PC Assembly</span>
+                </button>
+                <button class="service-tab" data-service="remote">
+                    <i class="fas fa-laptop-house"></i>
+                    <span>Remote Support</span>
+                </button>
             </div>
-        </div>
-
-        
-        <div class="detailed-service-section" id="tune-up-details" style="margin-top: 3rem;">
-            <h2>2. Restore Performance with <span class="highlight">System Tune-Ups & Repair</span> 🖥️</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: A Slow, Lagging, or Compromised PC</h4>
-                <p>Over time, computers slow down, get cluttered, and are vulnerable to malware. If your machine is taking forever to boot, lagging during simple tasks, or showing strange pop-ups, it's time for a professional clean and diagnosis.</p>
-                
-                <h4>What TechConnAU Delivers: Comprehensive Digital Cleaning</h4>
-                <p>I perform a deep, non-destructive clean and optimization to bring your computer back to life, focusing on speed, stability, and security.</p>
-                
-                <ul>
-                    <li>**Full Diagnostic Scan:** Identifying the root cause of slow performance, whether it's software conflicts, failing hardware, or background processes.</li>
-                    <li>**Virus & Malware Removal:** Thorough removal of malicious software, spyware, and adware that may be compromising your privacy and speed.</li>
-                    <li>**Startup & Registry Optimization:** Cleaning out unnecessary startup programs and optimizing system settings to significantly improve boot times and overall responsiveness.</li>
-                    <li>**Disk Cleanup & Defragmentation:** Clearing temporary files, large redundant data, and optimizing storage structure for efficient file access.</li>
-                    <li>**Operating System Health Check:** Ensuring Windows/macOS is up-to-date and running with the most secure and stable configuration.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Schedule a Tune-Up</a>
-            </div>
-        </div>
-
-        
-        <div class="detailed-service-section" id="backup-details" style="margin-top: 3rem;">
-            <h2>3. Critical <span class="highlight">Backup & Data Protection</span> 🔒</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: The Risk of Total Data Loss</h4>
-                <p>Photos, documents, business files—your digital life is valuable and vulnerable to hardware failure, theft, or ransomware. Without a reliable, automated backup system, a single incident can lead to permanent data loss.</p>
-                
-                <h4>What TechConnAU Delivers: Set-and-Forget Security</h4>
-                <p>I implement robust, easy-to-manage backup strategies tailored to your needs, ensuring your data is safe and recoverable.</p>
-                
-                <ul>
-                    <li>**Local Backup Setup:** Configuring external hard drives or NAS devices for fast, convenient local backups.</li>
-                    <li>**Cloud Backup Integration:** Setting up and managing secure, automated cloud services (like Google Drive, Dropbox, or dedicated solutions) for off-site data redundancy.</li>
-                    <li>**Data Recovery Assistance:** Advising on best practices for minor data loss scenarios and recommending professional services for complex recovery.</li>
-                    <li>**3-2-1 Rule Consultation:** Explaining and implementing the industry-standard backup rule (3 copies of data, 2 different media types, 1 off-site) for maximum safety.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Protect My Data Now</a>
-            </div>
-        </div>
-
-        
-        <div class="detailed-service-section" id="guidance-details" style="margin-top: 3rem;">
-            <h2>4. <span class="highlight">Patient Tech Guidance</span> & Training 💡</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: Technology Moving Too Fast</h4>
-                <p>New devices, confusing software updates, and complex security settings can leave you feeling lost. You need patient, one-on-one training from someone who explains things clearly and without technical jargon.</p>
-                
-                <h4>What TechConnAU Delivers: Confidence and Clarity</h4>
-                <p>This is dedicated time for you to ask questions and learn hands-on about your technology, building confidence in using your devices effectively and securely.</p>
-                
-                <ul>
-                    <li>**Software & Device Onboarding:** Guidance on setting up new phones, tablets, smart TVs, or specialized software.</li>
-                    <li>**Digital Security Training:** Teaching best practices for creating strong passwords, identifying phishing emails, and securely browsing the internet.</li>
-                    <li>**Email & Organization Mastery:** Helping you manage complex inboxes, set up calendars, and use productivity tools efficiently.</li>
-                    <li>**Personalized Q&A Sessions:** Addressing any specific technical anxieties or questions you have in a friendly, non-judgmental setting.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Book a Training Session</a>
-            </div>
-        </div>
-        
-        
-        <div class="detailed-service-section" id="assembly-details" style="margin-top: 3rem;">
-            <h2>5. Custom <span class="highlight">New PC Assembly</span> 🛠️</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: Overpaying for Generic Performance</h4>
-                <p>Buying a pre-built computer often means paying too much for parts you don't need, or getting stuck with low-quality components. If you need a machine optimized for a specific task (e.g., light gaming, intense office multitasking), a custom build is the answer.</p>
-                
-                <h4>What TechConnAU Delivers: Value and Performance</h4>
-                <p>I handle the entire custom build process, from component selection to final operating system installation, ensuring you get the best value for your budget.</p>
-                
-                <ul>
-                    <li>**Budget & Needs Consultation:** Discussing your intended use and budget to select the perfect components (CPU, RAM, Storage).</li>
-                    <li>**Professional Assembly:** Carefully building the PC, managing cables for optimal airflow, and ensuring all drivers and firmware are up-to-date.</li>
-                    <li>**OS & Software Installation:** Installing the operating system (Windows/Linux) and essential utility software.</li>
-                    <li>**Post-Build Support:** Offering basic setup and connection support once the PC is delivered.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Request a Custom PC Quote</a>
-            </div>
-        </div>
-        
-        
-        <div class="detailed-service-section" id="remote-details" style="margin-top: 3rem;">
-            <h2>6. Fast <span class="highlight">Remote Troubleshooting</span> 💻</h2>
-            <div class="service-detail-content">
-                <h4>The Problem: Minor Issues Requiring Quick Fixes</h4>
-                <p>Many common software issues, settings changes, and email problems don't require an on-site visit. You need a secure, fast, and cost-effective solution to get back to work immediately.</p>
-                
-                <h4>What TechConnAU Delivers: Quick, Secure Access</h4>
-                <p>I use secure, industry-standard remote access tools to solve software-based problems efficiently, saving you time and money.</p>
-                
-                <ul>
-                    <li>**Software Error Resolution:** Fixing persistent errors, driver conflicts, and application issues.</li>
-                    <li>**Email & Printer Setup:** Configuring new email accounts, troubleshooting connectivity issues, and getting your printer working correctly.</li>
-                    <li>**Settings & Configuration:** Adjusting system settings, managing user accounts, and addressing network share issues.</li>
-                    <li>**Highly Secure Sessions:** I only connect with your explicit permission and the session ends immediately once the work is complete, ensuring your privacy.</li>
-                </ul>
-
-                <a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem;">Book a Remote Session</a>
-            </div>
-        </div>
-        
-    </section>
-    <section id="faq" style="margin-top: 5rem;">
-        <h2>Common Questions <span class="highlight">Answered</span></h2>
-        <p class="section-subtitle">Get immediate answers to the most common inquiries about local IT support.</p>
-
-        <div class="why-me-grid" style="grid-template-columns: 1fr;">
-            
-            <div class="why-card" style="text-align: left; padding: 1.5rem 2rem;">
-                <div class="why-icon" aria-hidden="true" style="font-size: 1.5rem; margin-bottom: 0.25rem;">❓</div>
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem;">Where do you offer service?</h3>
-                <p style="font-size: 1rem; color: var(--text-body);">I offer **Remote Support for all customers across Australia**. For **on-site** services, I focus primarily on the **Greater Hobart Area** (Tasmania), where I can guarantee fast, reliable service.</p>
-            </div>
-            
-            <div class="why-card" style="text-align: left; padding: 1.5rem 2rem;">
-                <div class="why-icon" aria-hidden="true" style="font-size: 1.5rem; margin-bottom: 0.25rem;">💰</div>
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem;">How is your pricing structured?</h3>
-                <p style="font-size: 1rem; color: var(--text-body);">My goal is to be affordable and transparent. I offer a **free initial consultation** to diagnose the problem. Following that, I provide an **upfront, fixed quote** for the entire job before any work begins, so there are never any surprises or hidden hourly fees.</p>
-            </div>
-            
-            <div class="why-card" style="text-align: left; padding: 1.5rem 2rem;">
-                <div class="why-icon" aria-hidden="true" style="font-size: 1.5rem; margin-bottom: 0.25rem;">🔒</div>
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem;">How do you ensure my data is secure during remote support?</h3>
-                <p style="font-size: 1rem; color: var(--text-body);">I use secure, encrypted, and industry-standard remote connection tools (like TeamViewer or AnyDesk). Crucially, **I only connect with your explicit verbal permission**, and the session is immediately terminated by both parties when the work is complete, ensuring your privacy.</p>
-            </div>
-            
-            <div class="why-card" style="text-align: left; padding: 1.5rem 2rem;">
-                <div class="why-icon" aria-hidden="true" style="font-size: 1.5rem; margin-bottom: 0.25rem;">📅</div>
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem;">What are your working hours?</h3>
-                <p style="font-size: 1rem; color: var(--text-body);">I am available **7 days a week, from 7am to 11pm**, including most weekends, to fit around your busy schedule. I aim to respond to all inquiries within a few hours.</p>
-            </div>
-            
-        </div>
-    </section>
-    <section id="contact-bottom" style="text-align: center;">
-        <div class="free-offer">
-            <h3>Ready to Solve Your Tech Problem?</h3>
-            <p>
-                Your next step is simple. Contact me directly for your free, no-obligation consultation.
-                Let's discuss the details of your issue and find the right solution.
-            </p>
-            <a href="index.html#contact" class="btn btn-primary">Contact Tech Connect Australia</a>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-body);">
-                Or call/text me directly: **0451 331 921**
-            </p>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Tech Connect Australia - Local IT Support</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Connecting Australia with Reliable IT Solutions</p>
+    <!-- Service Content -->
+    <section class="service-details">
+        <div class="container">
+            <!-- Network & WiFi Service -->
+            <div class="service-content active" id="network">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>Professional Network & WiFi Setup</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 2-4 Hours
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $150
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i> Remote/On-Site
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Professional Network Setup">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>Optimize your internet connection and wireless network for maximum performance, security, and reliability. Perfect for homes, home offices, and small businesses.</p>
+                        
+                        <div class="overview-features">
+                            <h4>Common Issues We Fix:</h4>
+                            <ul>
+                                <li>Slow or unreliable WiFi connections</li>
+                                <li>Dead zones in your home or office</li>
+                                <li>Network security concerns</li>
+                                <li>Multiple device connectivity problems</li>
+                                <li>NBN configuration issues</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic Setup</h4>
+                            <div class="package-price">$150</div>
+                            <ul>
+                                <li>Router/modem configuration</li>
+                                <li>Wireless network setup</li>
+                                <li>Basic security configuration</li>
+                                <li>Speed test & optimization</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Premium Setup</h4>
+                            <div class="package-price">$250</div>
+                            <ul>
+                                <li>Everything in Basic, plus:</li>
+                                <li>Mesh network setup (if needed)</li>
+                                <li>Advanced security configuration</li>
+                                <li>Guest network setup</li>
+                                <li>Device prioritization</li>
+                                <li>WiFi coverage analysis</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Business Setup</h4>
+                            <div class="package-price">From $400</div>
+                            <ul>
+                                <li>Everything in Premium, plus:</li>
+                                <li>VLAN configuration</li>
+                                <li>Business-grade security</li>
+                                <li>Network monitoring setup</li>
+                                <li>Multiple access points</li>
+                                <li>24/7 priority support</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-router"></i>
+                            </div>
+                            <h4>Router Configuration</h4>
+                            <p>Optimize NBN modem/router settings for maximum speed and stability</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Security Setup</h4>
+                            <p>Configure WPA3 encryption, guest networks, and firewall rules</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-satellite-dish"></i>
+                            </div>
+                            <h4>WiFi Coverage Analysis</h4>
+                            <p>Identify dead zones and optimize access point placement</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <h4>Performance Testing</h4>
+                            <p>Speed tests and connection quality verification</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-benefits">
+                    <h3><i class="fas fa-thumbs-up"></i> Benefits</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-bolt"></i>
+                            <div class="benefit-content">
+                                <h4>Faster Internet Speeds</h4>
+                                <p>Optimized settings ensure you get the full speed you're paying for</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="benefit-content">
+                                <h4>Enhanced Security</h4>
+                                <p>Protect your network from unauthorized access and cyber threats</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-wifi"></i>
+                            <div class="benefit-content">
+                                <h4>Better Coverage</h4>
+                                <p>Eliminate dead zones and enjoy WiFi in every room</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-headset"></i>
+                            <div class="benefit-content">
+                                <h4>Reliable Connection</h4>
+                                <p>Reduce dropouts and maintain stable connections for all devices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Ready to Improve Your Network?</h3>
+                        <p>Contact us today for a free assessment of your current setup and personalized recommendations.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Send Message
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- System Repair Service -->
+            <div class="service-content" id="repair">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>System Tune-Ups & Repair</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 1-3 Hours
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $120
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i> Remote/On-Site
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Computer Repair">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>Bring your slow or problematic computer back to peak performance. Comprehensive diagnostics and repair services for both Windows and macOS systems.</p>
+                        
+                        <div class="overview-features">
+                            <h4>Common Issues We Fix:</h4>
+                            <ul>
+                                <li>Slow computer performance</li>
+                                <li>Virus and malware infections</li>
+                                <li>Blue screen errors</li>
+                                <li>Computer won't start</li>
+                                <li>Hardware failures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic Tune-Up</h4>
+                            <div class="package-price">$120</div>
+                            <ul>
+                                <li>Virus and malware removal</li>
+                                <li>Disk cleanup and optimization</li>
+                                <li>Software updates</li>
+                                <li>Startup program management</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Complete Repair</h4>
+                            <div class="package-price">$200</div>
+                            <ul>
+                                <li>Everything in Basic, plus:</li>
+                                <li>Full system diagnostics</li>
+                                <li>Hardware testing</li>
+                                <li>Operating system repair</li>
+                                <li>Driver updates</li>
+                                <li>30-day follow-up support</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Hardware Repair</h4>
+                            <div class="package-price">Parts + Labor</div>
+                            <ul>
+                                <li>Hardware diagnostics</li>
+                                <li>Component replacement</li>
+                                <li>Data recovery (if needed)</li>
+                                <li>Warranty on repairs</li>
+                                <li>Parts at cost + 20%</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h4>Full Diagnostic Scan</h4>
+                            <p>Identify the root cause of slow performance and system issues</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-shield-virus"></i>
+                            </div>
+                            <h4>Virus & Malware Removal</h4>
+                            <p>Thorough removal of malicious software and security threats</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Performance Optimization</h4>
+                            <p>Clean startup programs, optimize settings, and update drivers</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-hdd"></i>
+                            </div>
+                            <h4>Disk Cleanup</h4>
+                            <p>Remove temporary files and optimize storage space</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Need Computer Repair?</h3>
+                        <p>Get your computer running like new again. Contact us for fast, reliable repair services.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Schedule Repair
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Data Backup Service -->
+            <div class="service-content" id="backup">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>Data Backup & Protection</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 2-5 Hours
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $180
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i> Remote/On-Site
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1537724326059-2ea20251b9c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Data Backup Solutions">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>Secure your valuable data with comprehensive backup solutions and disaster recovery planning. Protect against data loss from hardware failure, ransomware, or accidental deletion.</p>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic Backup</h4>
+                            <div class="package-price">$180</div>
+                            <ul>
+                                <li>External drive backup setup</li>
+                                <li>Automated backup schedule</li>
+                                <li>Essential file protection</li>
+                                <li>Basic recovery testing</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Cloud Backup</h4>
+                            <div class="package-price">$250 + Storage</div>
+                            <ul>
+                                <li>Everything in Basic, plus:</li>
+                                <li>Cloud backup setup</li>
+                                <li>3-2-1 backup strategy</li>
+                                <li>Encrypted backups</li>
+                                <li>Version history (30 days)</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Business Continuity</h4>
+                            <div class="package-price">From $500</div>
+                            <ul>
+                                <li>Everything in Cloud, plus:</li>
+                                <li>Disaster recovery planning</li>
+                                <li>Business-critical data backup</li>
+                                <li>Offsite backup solutions</li>
+                                <li>Regular backup testing</li>
+                                <li>24/7 monitoring</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <h4>Cloud Backup Setup</h4>
+                            <p>Configure automated backups to secure cloud storage services</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-hdd"></i>
+                            </div>
+                            <h4>Local Backup Solutions</h4>
+                            <p>Set up external drives or NAS devices for local backups</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h4>Scheduled Automation</h4>
+                            <p>Automate regular backups to ensure data is always protected</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-history"></i>
+                            </div>
+                            <h4>Version History</h4>
+                            <p>Configure file versioning to recover previous file versions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Protect Your Data Today</h3>
+                        <p>Don't wait for data loss to happen. Implement a reliable backup solution now.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Get Backup Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Training Service -->
+            <div class="service-content" id="training">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>Tech Guidance & Training</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 1-2 Hours/Session
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $80/hr
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i> Remote/On-Site
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Tech Training Session">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>One-on-one training and support for new software, devices, and security best practices. Perfect for individuals or small teams who need to improve their tech skills.</p>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Single Session</h4>
+                            <div class="package-price">$80/hr</div>
+                            <ul>
+                                <li>1-hour training session</li>
+                                <li>Customized to your needs</li>
+                                <li>One specific topic</li>
+                                <li>Basic follow-up support</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Training Package</h4>
+                            <div class="package-price">$280</div>
+                            <ul>
+                                <li>4 hours of training</li>
+                                <li>Multiple topics covered</li>
+                                <li>Custom training materials</li>
+                                <li>30-day email support</li>
+                                <li>Best value per hour</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Business Training</h4>
+                            <div class="package-price">From $500</div>
+                            <ul>
+                                <li>Team training sessions</li>
+                                <li>Custom curriculum</li>
+                                <li>Training materials</li>
+                                <li>Follow-up sessions</li>
+                                <li>Progress assessment</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4>Software Training</h4>
+                            <p>Learn essential software applications and productivity tools</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>Device Setup</h4>
+                            <p>Help with setting up new smartphones, tablets, and computers</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Security Education</h4>
+                            <p>Learn how to protect yourself online and recognize threats</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h4>Customized Lessons</h4>
+                            <p>Tailored training based on your specific needs and skill level</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-topics">
+                    <h3><i class="fas fa-book"></i> Popular Training Topics</h3>
+                    <div class="topics-grid">
+                        <div class="topic-item">Windows/Mac Basics</div>
+                        <div class="topic-item">Microsoft Office</div>
+                        <div class="topic-item">Online Security</div>
+                        <div class="topic-item">Smartphone Setup</div>
+                        <div class="topic-item">Cloud Storage</div>
+                        <div class="topic-item">Video Conferencing</div>
+                        <div class="topic-item">Social Media Safety</div>
+                        <div class="topic-item">Backup Procedures</div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Boost Your Tech Skills</h3>
+                        <p>Learn to use technology effectively and confidently with personalized training.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Book Training
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PC Assembly Service -->
+            <div class="service-content" id="assembly">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>Custom PC Assembly</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 3-6 Hours
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $200
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1552831388-6d6f2c5d7e24?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Custom PC Build">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>Professional PC builds tailored to your specific needs. Whether for gaming, content creation, or business applications, get a custom-built computer that perfectly matches your requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic Build</h4>
+                            <div class="package-price">$200</div>
+                            <ul>
+                                <li>Component assembly</li>
+                                <li>Cable management</li>
+                                <li>Basic OS installation</li>
+                                <li>Driver updates</li>
+                                <li>24-hour burn-in test</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Complete Build</h4>
+                            <div class="package-price">$350</div>
+                            <ul>
+                                <li>Everything in Basic, plus:</li>
+                                <li>Component selection advice</li>
+                                <li>Advanced thermal management</li>
+                                <li>Full software suite setup</li>
+                                <li>Performance optimization</li>
+                                <li>48-hour stress testing</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Premium Build</h4>
+                            <div class="package-price">$500+</div>
+                            <ul>
+                                <li>Everything in Complete, plus:</li>
+                                <li>Custom water cooling</li>
+                                <li>RGB lighting setup</li>
+                                <li>Overclocking services</li>
+                                <li>Benchmark certification</li>
+                                <li>Priority support</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h4>Component Selection</h4>
+                            <p>Help choosing compatible components within your budget</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Professional Assembly</h4>
+                            <p>Careful assembly with cable management and thermal optimization</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h4>System Installation</h4>
+                            <p>OS installation, driver updates, and basic software setup</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <h4>Performance Testing</h4>
+                            <p>Stress testing and benchmarking to ensure stability</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Build Your Dream PC</h3>
+                        <p>Get a custom-built computer that perfectly matches your needs and budget.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Get Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Remote Support Service -->
+            <div class="service-content" id="remote">
+                <div class="service-header">
+                    <div class="service-icon-large">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <div class="service-title">
+                        <h2>Remote Troubleshooting</h2>
+                        <div class="service-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i> 30min-2 Hours
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-dollar-sign"></i> From $60
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i> Remote Only
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-overview">
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Remote IT Support">
+                    </div>
+                    <div class="overview-content">
+                        <h3><i class="fas fa-info-circle"></i> Service Overview</h3>
+                        <p>Quick resolution of software issues via secure remote sessions. Save time and money by getting technical support without waiting for an on-site visit.</p>
+                    </div>
+                </div>
+                
+                <div class="service-packages">
+                    <h3><i class="fas fa-box"></i> Service Packages</h3>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>30-Minute Session</h4>
+                            <div class="package-price">$60</div>
+                            <ul>
+                                <li>Quick issue resolution</li>
+                                <li>One specific problem</li>
+                                <li>Secure remote connection</li>
+                                <li>Basic troubleshooting</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>1-Hour Session</h4>
+                            <div class="package-price">$100</div>
+                            <ul>
+                                <li>More complex issues</li>
+                                <li>Multiple problems</li>
+                                <li>Software installation</li>
+                                <li>System optimization</li>
+                                <li>Better value</li>
+                            </ul>
+                            <a href="tel:0451331921" class="btn btn-small btn-primary">Book Now</a>
+                        </div>
+                        
+                        <div class="package-card">
+                            <h4>Monthly Support</h4>
+                            <div class="package-price">$150/month</div>
+                            <ul>
+                                <li>Up to 3 hours remote support</li>
+                                <li>Priority response</li>
+                                <li>Monthly system check</li>
+                                <li>Email support included</li>
+                                <li>Best for small businesses</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-includes">
+                    <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Software Troubleshooting</h4>
+                            <p>Fix application errors, update issues, and configuration problems</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h4>Connectivity Issues</h4>
+                            <p>Resolve internet, email, and network connection problems</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Security Scans</h4>
+                            <p>Remote malware scans and security vulnerability checks</p>
+                        </div>
+                        
+                        <div class="include-item">
+                            <div class="include-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <h4>System Optimization</h4>
+                            <p>Remote system cleanup and performance optimization</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-security">
+                    <h3><i class="fas fa-lock"></i> Security & Privacy</h3>
+                    <div class="security-features">
+                        <div class="security-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Secure Connection</h4>
+                            <p>Encrypted remote sessions with your permission required</p>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-eye-slash"></i>
+                            <h4>No Hidden Access</h4>
+                            <p>We only connect when you request and can see everything we do</p>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-history"></i>
+                            <h4>Session Recording</h4>
+                            <p>Option to record sessions for your reference and security</p>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-user-lock"></i>
+                            <h4>Privacy Protected</h4>
+                            <p>We never access personal files without explicit permission</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-cta-box">
+                    <div class="cta-content">
+                        <h3>Get Instant Help</h3>
+                        <p>Quick, secure remote support for urgent technical issues.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="tel:0451331921" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Request Remote Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Service Comparison -->
+    <section class="service-comparison">
+        <div class="container">
+            <h2>Service <span class="highlight">Comparison</span></h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Starting Price</th>
+                            <th>Time Required</th>
+                            <th>Best For</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Network & WiFi Setup</td>
+                            <td>$150</td>
+                            <td>2-4 hours</td>
+                            <td>Homes & Small Offices</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                        <tr>
+                            <td>System Repair</td>
+                            <td>$120</td>
+                            <td>1-3 hours</td>
+                            <td>Slow Computers & Viruses</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                        <tr>
+                            <td>Data Backup</td>
+                            <td>$180</td>
+                            <td>2-5 hours</td>
+                            <td>Data Protection</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                        <tr>
+                            <td>Tech Training</td>
+                            <td>$80/hr</td>
+                            <td>1-2 hours/session</td>
+                            <td>Skill Development</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                        <tr>
+                            <td>PC Assembly</td>
+                            <td>$200</td>
+                            <td>3-6 hours</td>
+                            <td>Custom Computers</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                        <tr>
+                            <td>Remote Support</td>
+                            <td>$60</td>
+                            <td>30min-2 hours</td>
+                            <td>Quick Software Fixes</td>
+                            <td><a href="tel:0451331921" class="btn btn-small btn-primary">Call Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact -->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="quick-contact-box">
+                <div class="contact-info">
+                    <h3>Need Immediate Assistance?</h3>
+                    <p>Contact us directly for fast support</p>
+                </div>
+                <div class="contact-actions">
+                    <a href="tel:0451331921" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone"></i> Call: 0451 331 921
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary btn-large">
+                        <i class="fas fa-envelope"></i> Send Message
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="brand-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-primary">TechConnect</span>
+                            <span class="brand-secondary">AUSTRALIA</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">Connecting Australia with reliable IT solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rabinpandey0/" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="services.html">Service Details</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html#network">Network Setup</a></li>
+                        <li><a href="services.html#repair">Computer Repair</a></li>
+                        <li><a href="services.html#backup">Data Protection</a></li>
+                        <li><a href="services.html#training">Tech Training</a></li>
+                        <li><a href="services.html#assembly">PC Assembly</a></li>
+                        <li><a href="services.html#remote">Remote Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0451331921">0451 331 921</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:support@techconnectaustralia.com.au">support@techconnectaustralia.com.au</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Hobart, Tasmania
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            7 Days: 7am - 11pm
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tech Connect Australia. All rights reserved.</p>
+                <p class="footer-legal">ABN: 57 156 525 836 | Professional IT Support Services</p>
+                <div class="footer-policy-links">
+                    <a href="privacy.html">Privacy Policy</a> | 
+                    <a href="terms.html">Terms of Service</a> | 
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
-
-
 </html>
