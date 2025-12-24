@@ -4,300 +4,648 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Connect Australia</title>
+    <title>Tech Connect Australia | Professional IT Support Services</title>
+    <meta name="description"
+        content="Professional IT support across Australia. Remote assistance nationwide with on-site services in Greater Hobart. Network setup, computer repair, and business IT solutions.">
+    <meta name="keywords"
+        content="IT support, network setup, computer repair, Hobart IT services, remote support, business IT solutions">
+    <meta name="author" content="Tech Connect Australia">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://techconnectaustralia.com.au/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techconnectaustralia.com.au/">
+    <meta property="og:title" content="Tech Connect Australia | Professional IT Support Services">
+    <meta property="og:description"
+        content="Professional IT support across Australia. Remote assistance nationwide with on-site services in Greater Hobart.">
+    <meta property="og:image" content="https://techconnectaustralia.com.au/assets/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://techconnectaustralia.com.au/">
+    <meta property="twitter:title" content="Tech Connect Australia | Professional IT Support Services">
+    <meta property="twitter:description"
+        content="Professional IT support across Australia. Remote assistance nationwide with on-site services in Greater Hobart.">
+    <meta property="twitter:image" content="https://techconnectaustralia.com.au/assets/images/og-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Tech Connect Australia",
+        "image": "https://techconnectaustralia.com.au/assets/images/logo.png",
+        "description": "Professional IT support services across Australia with remote assistance nationwide and on-site services in Greater Hobart.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hobart",
+            "addressRegion": "Tasmania",
+            "addressCountry": "AU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-42.8821",
+            "longitude": "147.3272"
+        },
+        "url": "https://techconnectaustralia.com.au/",
+        "telephone": "+61451331921",
+        "openingHours": "Mo-Su 07:00-23:00",
+        "priceRange": "$$",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "-42.8821",
+                "longitude": "147.3272"
+            },
+            "geoRadius": "50000"
+        }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
-    <link rel="shortcut icon" href="favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="TechConn" />
-    <link rel="manifest" href="favicon/site.webmanifest" />
-
+    <!-- Favicon -->
+    <!-- Small data-URI favicons to avoid local 404s during preview -->
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#0066cc">
+    <meta name="msapplication-TileColor" content="#0066cc">
+    <meta name="theme-color" content="#0066cc">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="#hero" class="logo">
-                <img src="favicon/favicon-96x96.png" alt="TechConnAU Logo">
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="full-service-menu.html">Service Details</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-toggle" id="mobileToggle">☰</button>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-primary">TechConnect</span>
+                        <span class="brand-secondary">AUSTRALIA</span>
+                    </div>
+                </a>
+
+                <div class="nav-menu">
+                    <div class="nav-links">
+                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="services.html" class="nav-link">Service Details</a>
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+
+                    <div class="nav-cta">
+                        <a href="tel:0451331921" class="btn btn-small btn-primary">
+                            <i class="fas fa-phone"></i> 0451 331 921
+                        </a>
+                    </div>
+                </div>
+
+                <button class="nav-toggle" aria-label="Menu">
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                </button>
+            </div>
         </div>
     </nav>
 
-    <section class="hero" id="hero">
-        <div class="availability-banner">
-            ⭐ **Australia-Wide Remote Support** | Reliable, Local Support in **Greater Hobart**
-        </div>
-        <h1>
-            Personalized IT Support for <span class="highlight">Your Home & Business</span>
-        </h1>
-        <p>
-            Tech Connect Australia offers affordable, highly dedicated technology solutions, specializing in fast
-            network setup, computer repair, and patient tech guidance **across Australia**, with **local on-site service in the Greater Hobart area**.
-        </p>
-        <div class="cta-buttons">
-            <a href="#contact" class="btn btn-primary">Get Your FREE Consultation</a>
-            <a href="#services" class="btn btn-secondary">See Services Overview</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-users"></i>
+                        <span>Professional IT Team | Reliable Support When You Need It</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Professional <span class="highlight">IT Solutions</span> for Your Business
+                    </h1>
+
+                    <p class="hero-description">
+                        We provide comprehensive technology support with a personal touch. Fast, reliable, and
+                        affordable IT solutions for homes and businesses across Australia. Enterprise-grade expertise
+                        without the corporate price tag.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Emergency Support</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Satisfaction Rate</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1hr</div>
+                            <div class="stat-label">Response Time</div>
+                        </div>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="contact.html" class="btn btn-primary btn-large">
+                            <i class="fas fa-calendar-check"></i> Free IT Audit
+                        </a>
+                        <a href="tel:0451331921" class="btn btn-secondary btn-large">
+                            <i class="fas fa-phone"></i> Emergency Support
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                        alt="Professional IT Support Team" class="hero-img">
+                    <div class="image-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Certified IT Professionals</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About <span class="highlight">Tech Connect Australia</span></h2>
-        <p class="section-subtitle">A local professional bringing up-to-date knowledge and fair pricing.</p>
-
-        <div class="about-container">
-            <div class="profile-box">
-                <div class="profile-icon" aria-hidden="true">👨‍🎓</div>
-                <h3>Rabin Pandey</h3>
-                <p>Founder & Network Specialist | TechConnAU</p>
-
-                <div class="info-item">
-                    <div class="info-label">Base of Operations</div>
-                    <div class="info-value">Tasmania, Australia (Remote Service Australia-wide)</div>
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-preview-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Network Setup</h3>
+                    <p>Professional configuration for optimal performance</p>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Education</div>
-                    <div class="info-value">Bachelor's Degree - Networking</div>
+                <div class="service-preview-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Computer Repair</h3>
+                    <p>Fast diagnostics and expert repairs</p>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Status</div>
-                    <div class="info-value">Available for Local On-Site Support **in Greater Hobart** & Remote Support</div>
+                <div class="service-preview-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Protection</h3>
+                    <p>Secure backup and recovery solutions</p>
+                </div>
+                <div class="service-preview-card">
+                    <i class="fas fa-laptop-house"></i>
+                    <h3>Remote Support</h3>
+                    <p>Quick resolution without on-site visits</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Tech Connect Australia</span></h2>
+                <p class="section-subtitle">Professional IT support with a focus on reliability, transparency, and
+                    exceptional service.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="profile-image">
+                        <div class="profile-photo">
+                            <div class="profile-initials">RP</div>
+                        </div>
+                        <div class="profile-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:0451331921">0451 331 921</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a
+                                    href="mailto:support@techconnectaustralia.com.au">support@techconnectaustralia.com.au</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-info">
+                        <h3>Rabin Pandey</h3>
+                        <p class="profile-title">Founder & Network Specialist</p>
+
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Education</h4>
+                                    <p>Bachelor's Degree in Networking</p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Service Area</h4>
+                                    <p>Australia-Wide Remote Support<br>On-Site in Greater Hobart</p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Certifications</h4>
+                                    <p>Network Infrastructure & Security</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="mission-box">
+                        <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>To provide reliable, professional IT support that empowers businesses and individuals to
+                            leverage technology effectively, without the complexity or high costs of corporate IT
+                            providers.</p>
+                    </div>
+
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Modern Expertise</h4>
+                            <p>Up-to-date technical skills with current best practices and the latest industry
+                                knowledge.</p>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Direct Service</h4>
+                            <p>No call centers or automated systems. You work directly with our technical team for
+                                personal attention.</p>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>Transparent Pricing</h4>
+                            <p>Clear, upfront quotes with no hidden fees. Competitive rates for premium service.</p>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>Fast Response</h4>
+                            <p>Quick turnaround times with extended availability to fit your schedule and minimize
+                                downtime.</p>
+                        </div>
+                    </div>
+
+                    <div class="guarantee-box">
+                        <i class="fas fa-award"></i>
+                        <div class="guarantee-content">
+                            <h4>Satisfaction Guarantee</h4>
+                            <p>We stand behind our work. If you're not satisfied with our service, we'll make it right
+                                or refund your money.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="highlight">IT Services</span></h2>
+                <p class="section-subtitle">Comprehensive technology solutions for homes and businesses</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Network & WiFi Setup</h3>
+                    <p>Professional configuration of routers, modems, and wireless networks for optimal performance and
+                        security.</p>
+                    <a href="services.html#network" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>System Tune-Ups & Repair</h3>
+                    <p>Diagnosis and repair of slow computers, virus removal, and performance optimization.</p>
+                    <a href="services.html#repair" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backup & Data Protection</h3>
+                    <p>Secure backup solutions and disaster recovery planning to protect your critical data.</p>
+                    <a href="services.html#backup" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Tech Guidance & Training</h3>
+                    <p>One-on-one training and support for new software, devices, and security best practices.</p>
+                    <a href="services.html#training" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Custom PC Assembly</h3>
+                    <p>Professional PC builds tailored to your specific needs for home or business use.</p>
+                    <a href="services.html#assembly" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>Remote Troubleshooting</h3>
+                    <p>Quick resolution of software issues via secure remote sessions, saving you time and money.</p>
+                    <a href="services.html#remote" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
 
-            <div class="about-content">
-                <p>
-                    👋 **IT Support with Modern Expertise:** I recently completed my Bachelor's degree in Networking,
-                    which included **intensive lab work and practical projects** in network configuration, server
-                    administration, and advanced system troubleshooting. This foundation allows me to bring the **most
-                    current technical knowledge** directly to your service.
-                </p>
-                <p>
-                    💡 **Dedicated and Client-Focused:** Because I am focused on building my reputation, you will
-                    receive highly **dedicated service** that larger companies can't always match. I am personally
-                    committed to ensuring your satisfaction with clear, effective results—all offered at an affordable,
-                    fair rate.
-                </p>
-                <p>
-                    🎯 **A Transparent Partnership:** My approach is always **100% transparent**. I will assess your
-                    issue, explain the solution clearly and without jargon, and apply my expertise to get it resolved.
-                    If a challenge requires specialized expertise, I will be honest and help guide you to the right
-                    resource.
-                </p>
-                <div
-                    style="margin-top: 2rem; padding: 1rem; border-left: 4px solid var(--primary-color); background: rgba(0, 168, 150, 0.05); border-radius: 4px;">
-                    <p style="margin-bottom: 0; color: var(--text-heading);">
-                        ⭐ **The No-Jargon Guarantee:** I promise to explain your technical issue clearly. I will spend
-                        the extra time to **show you what went wrong and how to prevent it** next time, helping you feel
-                        confident with your technology.
+            <div class="services-cta">
+                <a href="services.html" class="btn btn-secondary">
+                    <i class="fas fa-clipboard-list"></i> View Complete Service Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client <span class="highlight">Testimonials</span></h2>
+                <p class="section-subtitle">What our clients say about our IT support services</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Tech Connect Australia resolved our network issues within hours.
+                        Professional, knowledgeable, and reasonably priced!"</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Johnson</strong>
+                        <span>Small Business Owner, Hobart</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Excellent remote support! Fixed my software issues without needing to
+                        visit my office. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Accountant, Sydney</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Custom-built a high-performance PC for my video editing business.
+                        Perfect specs and excellent after-sales support."</p>
+                    <div class="testimonial-author">
+                        <strong>David Wilson</strong>
+                        <span>Video Producer, Melbourne</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose <span class="highlight">Tech Connect Australia</span></h2>
+                <p class="section-subtitle">The advantages of working with professional IT specialists</p>
+            </div>
+
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <h3>Affordable Excellence</h3>
+                    <p>Professional IT services at competitive rates, without compromising on quality or expertise.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <h3>Current Industry Knowledge</h3>
+                    <p>Up-to-date knowledge with modern solutions to current problems, not outdated practices.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <h3>Quick Problem Resolution</h3>
+                    <p>Rapid troubleshooting skills with the ability to adapt to new technologies and unique challenges.
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="services">
-        <h2>Reliable <span class="highlight">IT Services</span></h2>
-        <p class="section-subtitle">Specializing in essential tech support for individuals and small operations.</p>
+                <div class="advantage-card">
+                    <h3>Direct Professional Service</h3>
+                    <p>No call centers or support tickets. You work directly with our technical team for consistent
+                        attention.</p>
+                </div>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">🌐</div>
-                <h3>Network & WiFi Setup</h3>
-                <p>Optimizing modem/router configuration for maximum speed and reliable home/office WiFi coverage.</p>
-            </div>
+                <div class="advantage-card">
+                    <h3>Clear Communication</h3>
+                    <p>We explain technical issues in plain language and provide guidance to prevent future problems.
+                    </p>
+                </div>
 
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">🖥️</div>
-                <h3>System Tune-Ups & Repair</h3>
-                <p>Diagnosis of slow computers, essential virus/malware removal, and software installation.</p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">🔒</div>
-                <h3>Backup & Data Protection</h3>
-                <p>Setting up local or cloud-based backup solutions to ensure your important files are safe.</p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">💡</div>
-                <h3>Patient Tech Guidance</h3>
-                <p>One-on-one training and guidance on using new software, devices, and internet security basics.</p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">🛠️</div>
-                <h3>New PC Assembly</h3>
-                <p>Building or upgrading custom PCs (home or light office use) for optimal performance.</p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon" aria-hidden="true">💻</div>
-                <h3>Remote Troubleshooting</h3>
-                <p>Quick fixes for common software issues, settings, and email problems via secure remote session.</p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Why Give Me a <span class="highlight">Chance?</span></h2>
-        <p class="section-subtitle">Here's what I bring to the table</p>
-
-        <div class="why-me-grid">
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">💰</div>
-                <h3>Very Affordable</h3>
-                <p>My rates are budget-friendly because I'm building experience. Quality help without the big price tag.
-                </p>
-            </div>
-
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">🎓</div>
-                <h3>Fresh Knowledge</h3>
-                <p>Just graduated with current, up-to-date networking and IT knowledge from university.</p>
-            </div>
-
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">⚡</div>
-                <h3>Quick to Learn</h3>
-                <p>If I don't know something, I learn it fast. I'm motivated to figure things out.</p>
-            </div>
-
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">🤝</div>
-                <h3>Personal Care</h3>
-                <p>You work directly with me. No call centers, no waiting. I answer my own phone.</p>
-            </div>
-
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">😊</div>
-                <h3>Patient Teacher</h3>
-                <p>I explain things clearly without jargon. I remember what it's like to not understand tech.</p>
-            </div>
-
-            <div class="why-card">
-                <div class="why-icon" aria-hidden="true">💪</div>
-                <h3>Eager to Prove Myself</h3>
-                <p>I'm building my reputation, so I'll work extra hard to make sure you're happy.</p>
-            </div>
-        </div>
-
-        <div class="free-offer">
-            <h3>🎁 Consultation is FREE</h3>
-            <p>
-                Let's have a casual chat about your tech problems. No charge, no pressure.
-                If I can help, great! If not, I'll be honest about it.
-            </p>
-            <a href="#contact" class="btn btn-primary">Schedule a Chat</a>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Ready to <span class="highlight">Get Started?</span></h2>
-        <p class="section-subtitle">Reach out 7 days a week. I'm here to help.</p>
-
-        <div class="contact-grid">
-            <div class="contact-card">
-                <div class="contact-icon" aria-hidden="true">📞</div>
-                <div class="contact-label">Call or Text</div>
-                <div class="contact-value">0451 331 921</div>
-            </div>
-
-            <div class="contact-card">
-                <div class="contact-icon" aria-hidden="true">✉️</div>
-                <div class="contact-label">Email</div>
-                <div class="contact-value">support@techconnectaustralia.com.au</div>
-            </div>
-
-            <div class="contact-card">
-                <div class="contact-icon" aria-hidden="true">📍</div>
-                <div class="contact-label">Service Area</div>
-                <div class="contact-value">Remote Support Australia-Wide / On-Site in **Greater Hobart**</div>
-            </div>
-
-            <div class="contact-card">
-                <div class="contact-icon" aria-hidden="true">⏰</div>
-                <div class="contact-label">Availability</div>
-                <div class="contact-value">7 Days a Week (7am - 11pm)</div>
-            </div>
-        </div>
-
-        <div class="contact-form-container">
-            <h3>Need help fast? Fill out the form below.</h3>
-            <form action="https://formspree.io/f/movggakv" method="POST">
-        <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required placeholder="John Smith">
-        </div>
-        
-        <div class="form-group">
-            <label for="email">Your Email Address</label>
-            <input type="email" id="email" name="_replyto" required placeholder="yourname@example.com">
-        </div>
-
-        <div class="form-group">
-            <label for="subject">Subject / Type of Issue</label>
-            <input type="text" id="subject" name="subject" required placeholder="WiFi issues / PC Build">
-        </div>
-
-        <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" required placeholder="Please describe your issue in detail..."></textarea>
-        </div>
-
-        <input type="hidden" name="_subject" value="New Website Support Request">
-
-        <button type="submit" class="btn btn-primary form-submit-btn">
-            Send Message Securely
-        </button>
-        
-        <p style="text-align: center; font-size: 0.85rem; color: var(--secondary-text); margin-top: 1rem;">
-            *Your message will be sent securely to our team.
-        </p>
-    </form>
-</div>
-        
-      
-        <div class="contact-flow">
-            <h3>My Simple, Stress-Free Process</h3>
-            <div class="flow-step">
-                <div class="flow-step-number">1</div>
-                <div class="flow-step-text">**Free Consultation:** We discuss the issue and confirm I can help (zero
-                    cost).</div>
-            </div>
-            <div class="flow-step">
-                <div class="flow-step-number">2</div>
-                <div class="flow-step-text">**Affordable Quote:** I provide an upfront, transparent price for the work.
+                <div class="advantage-card">
+                    <h3>Proven Track Record</h3>
+                    <p>See real-world projects and solutions in our portfolio that demonstrate practical expertise.</p>
+                    <a href="portfolio.html" class="advantage-link">
+                        View Portfolio <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
-            <div class="flow-step">
-                <div class="flow-step-number">3</div>
-                <div class="flow-step-text">**Solution Delivered:** I perform the fix and ensure you are 100% satisfied.
+
+            <div class="free-consultation">
+                <div class="consultation-content">
+                    <h3><i class="fas fa-gift"></i> Free Initial Consultation</h3>
+                    <p>Let's discuss your technology challenges with no obligation or pressure. If we can help, we'll
+                        provide a transparent quote. If not, we'll point you in the right direction.</p>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Schedule Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="brand-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-primary">TechConnect</span>
+                            <span class="brand-secondary">AUSTRALIA</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">Connecting Australia with reliable IT solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rabinpandey0/" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="services.html">Service Details</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html#network">Network Setup</a></li>
+                        <li><a href="services.html#repair">Computer Repair</a></li>
+                        <li><a href="services.html#backup">Data Protection</a></li>
+                        <li><a href="services.html#training">Tech Training</a></li>
+                        <li><a href="services.html#assembly">PC Assembly</a></li>
+                        <li><a href="services.html#remote">Remote Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0451331921">0451 331 921</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:support@techconnectaustralia.com.au">support@techconnectaustralia.com.au</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Hobart, Tasmania
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            7 Days: 7am - 11pm
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tech Connect Australia. All rights reserved.</p>
+                <p class="footer-legal">ABN: 57 156 525 836 | Professional IT Support Services</p>
+                <div class="footer-policy-links">
+                    <a href="privacy.html">Privacy Policy</a> |
+                    <a href="terms.html">Terms of Service</a> |
+                    <a href="cookies.html">Cookie Policy</a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Tech Connect Australia - Local IT Support</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Connecting Australia with Reliable IT Solutions</p>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
 
-
 </html>
-
-
-
