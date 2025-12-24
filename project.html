@@ -1,483 +1,836 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Connect Australia</title>
+    <title>Portfolio | Tech Connect Australia - IT Project Showcase</title>
+    <meta name="description" content="Technical projects demonstrating our team's expertise in networking, troubleshooting, and IT solutions for homes and small businesses across Australia.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://techconnectaustralia.com.au/portfolio.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techconnectaustralia.com.au/portfolio.html">
+    <meta property="og:title" content="Portfolio | Tech Connect Australia - IT Project Showcase">
+    <meta property="og:description" content="Technical projects demonstrating our team's expertise in networking, troubleshooting, and IT solutions for homes and small businesses across Australia.">
+    <meta property="og:image" content="https://techconnectaustralia.com.au/assets/images/portfolio-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://techconnectaustralia.com.au/portfolio.html">
+    <meta property="twitter:title" content="Portfolio | Tech Connect Australia - IT Project Showcase">
+    <meta property="twitter:description" content="Technical projects demonstrating our team's expertise in networking, troubleshooting, and IT solutions for homes and small businesses across Australia.">
+    <meta property="twitter:image" content="https://techconnectaustralia.com.au/assets/images/portfolio-og.jpg">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
-
-    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
-    <link rel="shortcut icon" href="favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="TechConn" />
-    <link rel="manifest" href="favicon/site.webmanifest" />
-
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#0066cc">
+    <meta name="msapplication-TileColor" content="#0066cc">
+    <meta name="theme-color" content="#0066cc">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="#hero" class="logo">
-                <img src="favicon/favicon-96x96.png" alt="TechConnAU Logo">
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="full-service-menu.html">Service Details</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-toggle" id="mobileToggle">☰</button>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-primary">TechConnect</span>
+                        <span class="brand-secondary">AUSTRALIA</span>
+                    </div>
+                </a>
+                
+                <div class="nav-menu">
+                    <div class="nav-links">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html#about" class="nav-link">About</a>
+                        <a href="index.html#services" class="nav-link">Services</a>
+                        <a href="services.html" class="nav-link">Service Details</a>
+                        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                    
+                    <div class="nav-cta">
+                        <a href="tel:0451331921" class="btn btn-small btn-primary">
+                            <i class="fas fa-phone"></i> 0451 331 921
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="nav-toggle" aria-label="Menu">
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                </button>
+            </div>
         </div>
     </nav>
-<body>
-    <nav>
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="favicon/favicon-96x96.png" alt="TechConnAU Logo">
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="full-service-menu.html">Service Details</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-toggle" id="mobileToggle">☰</button>
-        </div>
-    </nav>
 
-    <section class="hero" style="padding-top: 8rem; text-align: center; background: var(--bg-card);">
-        <h1>
-            My Technical <span class="highlight">Projects & Portfolio</span>
-        </h1>
-        <p style="font-size: 1.15rem; color: var(--text-body); max-width: 700px; margin: 0 auto;">
-            Real-world projects demonstrating hands-on experience in networking, virtualization, security, and IT infrastructure management.
-        </p>
-    </section>
-
-    <section>
-        <div class="portfolio-intro">
-            <h2>Proven <span class="highlight">Technical Expertise</span></h2>
-            <p>
-                These projects showcase my practical skills in building, configuring, and managing IT infrastructure. Each project represents real hands-on experience that directly translates to solving your technology challenges.
-            </p>
-        </div>
-
-        <!-- Project 1: macOS VM -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">1</div>
-                <h3>macOS Virtual Machine Setup in Proxmox</h3>
+    <!-- Portfolio Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Our <span class="highlight">Technical Projects</span></h1>
+                <p>Showcasing our team's expertise through completed projects and practical demonstrations of IT solutions.</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Portfolio</span>
+                </div>
             </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Virtualization</span>
-                <span class="skill-badge">Networking</span>
-                <span class="skill-badge">Storage Configuration</span>
-                <span class="skill-badge">Troubleshooting</span>
-                <span class="skill-badge">System Administration</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Successfully deployed macOS Ventura and Sonoma operating systems within a Proxmox virtualization environment. This complex project required deep understanding of virtualization technology, bootloader configuration, and macOS-specific requirements to create a stable, production-ready virtual machine.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>OpenCore Bootloader Configuration:</strong> Configured and optimized OpenCore bootloader for seamless macOS boot process in virtualized environment</li>
-                    <li><strong>Resource Allocation:</strong> Optimized CPU core assignment, RAM allocation (16GB+), and NUMA node configuration for maximum performance</li>
-                    <li><strong>Virtual Network Setup:</strong> Configured bridged networking with VirtIO drivers for near-native network performance</li>
-                    <li><strong>Storage Architecture:</strong> Implemented QEMU disk emulation with proper SATA/NVMe controller configuration</li>
-                    <li><strong>EFI Boot Management:</strong> Configured OVMF UEFI firmware and EFI system partition for proper macOS boot sequence</li>
-                    <li><strong>Display & Graphics:</strong> Set up GPU passthrough considerations and optimized display adapter settings</li>
-                </ul>
-            </div>
-            
-            <div class="project-section">
-                <h4>Challenges Overcome</h4>
-                <p class="project-description">
-                    Developed comprehensive troubleshooting procedures for common VM errors including boot failures, kernel panics, and hardware detection issues. Created documentation for replicating the setup and resolving configuration conflicts.
-                </p>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: macOS Sonoma desktop running smoothly in Proxmox VM environment
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Gained advanced virtualization expertise directly applicable to small business IT infrastructure. This experience enables me to help clients consolidate servers, reduce hardware costs, and implement flexible, scalable IT solutions. Skills include VM migration, resource optimization, and disaster recovery planning.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 2: Network Setup -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">2</div>
-                <h3>Home/Small Office Network Setup</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Router Configuration</span>
-                <span class="skill-badge">Firewall Rules</span>
-                <span class="skill-badge">VLAN Segmentation</span>
-                <span class="skill-badge">DHCP/DNS</span>
-                <span class="skill-badge">Wi-Fi Optimization</span>
-                <span class="skill-badge">Network Security</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Designed and implemented a comprehensive, enterprise-grade network infrastructure for a home/small office environment. The project focused on security, reliability, and optimal performance across all connected devices while maintaining ease of management.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>Advanced Router Configuration:</strong> Configured dual-band router with QoS policies, port forwarding, and dynamic DNS for external access</li>
-                    <li><strong>Network Segmentation (VLANs):</strong> Created isolated VLANs for guest devices, IoT devices, and primary network to enhance security</li>
-                    <li><strong>DHCP & DNS Services:</strong> Implemented custom DHCP reservations, configured local DNS for internal name resolution</li>
-                    <li><strong>Firewall Configuration:</strong> Established comprehensive firewall rules blocking unauthorized access while allowing required services</li>
-                    <li><strong>Wi-Fi Coverage Optimization:</strong> Conducted site survey, optimal access point placement, and channel selection to eliminate dead zones</li>
-                    <li><strong>Security Hardening:</strong> Implemented WPA3 encryption, disabled WPS, configured MAC filtering and guest network isolation</li>
-                    <li><strong>Network Monitoring:</strong> Set up bandwidth monitoring and traffic analysis tools for ongoing performance optimization</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: Network topology diagram showing VLAN segmentation and Wi-Fi coverage heatmap
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Delivered a secure, high-performance network with 99.9% uptime. Clients benefit from my ability to design scalable networks that grow with their business, implement proper security from day one, and troubleshoot complex connectivity issues. Experience includes working with various ISPs, NBN configurations, and hybrid network environments.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 3: PC Build -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">3</div>
-                <h3>Custom PC Build & System Optimization</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Hardware Assembly</span>
-                <span class="skill-badge">OS Installation</span>
-                <span class="skill-badge">BIOS/UEFI Configuration</span>
-                <span class="skill-badge">Driver Management</span>
-                <span class="skill-badge">Performance Tuning</span>
-                <span class="skill-badge">Benchmarking</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Built a high-performance custom PC from individual components, optimized for both Windows and Linux environments. This project demonstrates complete understanding of modern PC architecture, component compatibility, and system optimization techniques.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>Component Selection & Compatibility:</strong> Researched and selected optimal CPU (AMD Ryzen/Intel Core), motherboard, RAM, storage (NVMe SSD), GPU, and PSU based on performance requirements and budget</li>
-                    <li><strong>Professional Assembly:</strong> Proper component installation with attention to cable management, thermal paste application, and optimal airflow configuration</li>
-                    <li><strong>BIOS/UEFI Optimization:</strong> Configured XMP profiles for RAM, enabled AHCI mode, optimized fan curves, and verified hardware detection</li>
-                    <li><strong>Dual-Boot Configuration:</strong> Installed Windows 11 and Ubuntu Linux in dual-boot setup with proper partitioning and bootloader configuration</li>
-                    <li><strong>Driver Installation & Updates:</strong> Installed all necessary drivers (chipset, graphics, audio, network) and verified proper hardware functionality</li>
-                    <li><strong>Performance Optimization:</strong> Disabled unnecessary startup programs, optimized Windows services, configured power plans</li>
-                    <li><strong>Benchmarking & Testing:</strong> Ran comprehensive stress tests (CPU, GPU, RAM, storage) to verify stability and performance metrics</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Photo: Completed custom PC build with clean cable management and RGB lighting, running system monitoring dashboard
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Achieved 40% cost savings compared to pre-built systems while delivering superior performance and upgrade flexibility. This experience allows me to help clients get the best value for their PC investment, whether for office productivity, creative work, or light gaming. Skills include hardware troubleshooting, upgrade planning, and performance optimization for aging systems.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 4: File Server -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">4</div>
-                <h3>File Server / NAS Setup & Management</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Network Storage</span>
-                <span class="skill-badge">TrueNAS/Samba</span>
-                <span class="skill-badge">User Permissions</span>
-                <span class="skill-badge">RAID Configuration</span>
-                <span class="skill-badge">Backup Automation</span>
-                <span class="skill-badge">Data Security</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Deployed a centralized file storage solution using TrueNAS/Linux Samba to provide secure, reliable network storage for multiple users. The system includes automated backups, granular access controls, and data redundancy to protect against hardware failure.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>Storage Platform Setup:</strong> Installed and configured TrueNAS Core on dedicated hardware with ZFS filesystem for data integrity</li>
-                    <li><strong>RAID Configuration:</strong> Implemented RAID-Z1 (RAID 5 equivalent) for optimal balance of storage capacity and data protection</li>
-                    <li><strong>Network Share Configuration:</strong> Created SMB/CIFS shares accessible from Windows, macOS, and Linux clients</li>
-                    <li><strong>User & Group Management:</strong> Established hierarchical user permissions with department-based access controls</li>
-                    <li><strong>Security Implementation:</strong> Configured encrypted connections, strong authentication, and audit logging</li>
-                    <li><strong>Automated Backup System:</strong> Set up scheduled snapshots and replication to external backup destination</li>
-                    <li><strong>Performance Tuning:</strong> Optimized cache settings, network parameters, and disk allocation for fast file access</li>
-                    <li><strong>Monitoring & Alerts:</strong> Configured email alerts for disk health, capacity warnings, and system issues</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: TrueNAS dashboard showing storage pools, health status, and active network connections
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Created a reliable, centralized data storage solution with 99.9% uptime and zero data loss. This experience enables me to help small businesses eliminate data silos, improve collaboration, and protect critical business data. Skills include capacity planning, disaster recovery, and migrating from consumer-grade to business-grade storage solutions.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 5: Network Monitoring -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">5</div>
-                <h3>Network Monitoring Lab</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">PRTG Network Monitor</span>
-                <span class="skill-badge">Zabbix</span>
-                <span class="skill-badge">SNMP Configuration</span>
-                <span class="skill-badge">Alert Management</span>
-                <span class="skill-badge">Performance Analysis</span>
-                <span class="skill-badge">Capacity Planning</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Implemented a comprehensive network monitoring system to track performance metrics, uptime, bandwidth utilization, and generate proactive alerts. The system provides real-time visibility into network health and historical data for trend analysis.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>Monitoring Platform Deployment:</strong> Installed and configured PRTG Network Monitor on Windows Server for centralized monitoring</li>
-                    <li><strong>Device Discovery & Sensors:</strong> Auto-discovered all network devices and configured appropriate sensors (Ping, SNMP, WMI, NetFlow)</li>
-                    <li><strong>SNMP Configuration:</strong> Enabled SNMP v2c/v3 on routers, switches, and servers for detailed performance data collection</li>
-                    <li><strong>Custom Monitoring Rules:</strong> Created custom sensors for specific applications, services, and business-critical processes</li>
-                    <li><strong>Bandwidth Monitoring:</strong> Implemented NetFlow/sFlow analysis to track bandwidth usage by application and user</li>
-                    <li><strong>Alert Configuration:</strong> Set up multi-tier alerting system (email, SMS, push notifications) based on severity levels</li>
-                    <li><strong>Dashboard Creation:</strong> Built executive dashboards showing network health at-a-glance with color-coded status indicators</li>
-                    <li><strong>Historical Reporting:</strong> Configured automated reports for uptime statistics, bandwidth trends, and capacity planning</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: PRTG dashboard displaying real-time network topology, bandwidth graphs, and device health status with green/yellow/red indicators
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Achieved proactive network management with 95% reduction in unplanned downtime through early problem detection. This experience enables me to help businesses identify bottlenecks, plan upgrades, and maintain service quality. Skills include root cause analysis, performance baselines, and translating technical metrics into business insights.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 6: Backup & DR -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">6</div>
-                <h3>Backup & Disaster Recovery Setup</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Backup Strategies</span>
-                <span class="skill-badge">Cloud Integration</span>
-                <span class="skill-badge">Automation Scripts</span>
-                <span class="skill-badge">Data Recovery</span>
-                <span class="skill-badge">3-2-1 Rule</span>
-                <span class="skill-badge">Verification Testing</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Designed and implemented a comprehensive backup and disaster recovery solution following industry best practices. The system combines local and cloud-based backups with automated scheduling, encryption, and regular restore testing to ensure data protection and business continuity.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>3-2-1 Backup Strategy:</strong> Implemented three copies of data, on two different media types, with one copy off-site</li>
-                    <li><strong>Local Backup Configuration:</strong> Set up automated backups to external USB drives and NAS using robust backup software</li>
-                    <li><strong>Cloud Backup Integration:</strong> Configured encrypted backups to Google Drive, OneDrive, and AWS S3 for off-site redundancy</li>
-                    <li><strong>Automated Scheduling:</strong> Created PowerShell/Bash scripts for automated daily incremental and weekly full backups</li>
-                    <li><strong>Versioning & Retention:</strong> Configured retention policies to keep multiple versions (30 daily, 12 monthly, 7 yearly snapshots)</li>
-                    <li><strong>Encryption & Security:</strong> Implemented AES-256 encryption for all backup data, both in transit and at rest</li>
-                    <li><strong>Restore Testing:</strong> Conducted monthly restore drills to verify backup integrity and recovery time objectives (RTO)</li>
-                    <li><strong>Monitoring & Alerts:</strong> Set up email notifications for backup success/failure and storage capacity warnings</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: Backup management dashboard showing successful backup jobs, storage usage graphs, and recovery point timeline
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Achieved 100% data protection with verified recovery capability meeting RTO of under 4 hours. This experience allows me to protect clients from data loss disasters including ransomware, hardware failure, and accidental deletion. Skills include backup software selection, cloud storage management, and creating disaster recovery plans for small businesses.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 7: VPN Server -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">7</div>
-                <h3>Secure VPN Server Setup</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">OpenVPN</span>
-                <span class="skill-badge">WireGuard</span>
-                <span class="skill-badge">PKI Certificate Management</span>
-                <span class="skill-badge">Firewall Configuration</span>
-                <span class="skill-badge">Remote Access</span>
-                <span class="skill-badge">Network Security</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Deployed a secure VPN server solution using OpenVPN and WireGuard protocols to enable safe remote access to network resources. The implementation includes certificate-based authentication, strong encryption, and proper firewall rules to maintain security while providing flexible remote connectivity.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>OpenVPN Server Installation:</strong> Installed OpenVPN on Ubuntu Server with proper service configuration and automatic startup</li>
-                    <li><strong>PKI Infrastructure Setup:</strong> Created Certificate Authority (CA) and generated server/client certificates using Easy-RSA</li>
-                    <li><strong>Encryption Configuration:</strong> Implemented AES-256-GCM cipher with SHA512 HMAC for maximum security</li>
-                    <li><strong>WireGuard Deployment:</strong> Configured WireGuard as a modern, lightweight alternative with superior performance</li>
-                    <li><strong>Routing & NAT:</strong> Configured IP forwarding and masquerading to allow VPN clients access to local network resources</li>
-                    <li><strong>Firewall Rules:</strong> Established iptables/UFW rules allowing VPN traffic while blocking unauthorized access</li>
-                    <li><strong>Client Configuration:</strong> Created .ovpn profiles for Windows, macOS, iOS, and Android clients with easy setup</li>
-                    <li><strong>DNS Configuration:</strong> Pushed internal DNS settings to VPN clients for seamless name resolution</li>
-                    <li><strong>Logging & Monitoring:</strong> Enabled connection logging and set up alerts for unusual VPN activity</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: VPN server dashboard showing active connections, bandwidth usage, and client authentication logs
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                    Enabled secure remote work capabilities with zero security incidents and 99.5% availability. This experience allows me to help businesses support remote employees, secure public Wi-Fi connections, and provide safe access to internal resources. Skills include multi-protocol VPN deployment, troubleshooting connection issues, and balancing security with user convenience.
-                </p>
-            </div>
-        </div>
-
-        <!-- Project 8: Active Directory -->
-        <div class="project-showcase">
-            <div class="project-header">
-                <div class="project-number">8</div>
-                <h3>Windows Server / Active Directory Lab</h3>
-            </div>
-            
-            <div class="skills-badges">
-                <span class="skill-badge">Active Directory</span>
-                <span class="skill-badge">Domain Services</span>
-                <span class="skill-badge">Group Policy</span>
-                <span class="skill-badge">User Management</span>
-                <span class="skill-badge">File Permissions</span>
-                <span class="skill-badge">Windows Server</span>
-            </div>
-            
-            <div class="project-section">
-                <h4>Project Overview</h4>
-                <p class="project-description">
-                    Built a complete Windows Server lab environment with Active Directory Domain Services (AD DS) to manage users, computers, and resources in an enterprise manner. The lab demonstrates centralized management, security policies, and the infrastructure foundation that many small businesses need as they grow.
-                </p>
-            </div>
-            
-            <div class="project-details">
-                <h4>Technical Implementation</h4>
-                <ul>
-                    <li><strong>Windows Server Deployment:</strong> Installed Windows Server 2022 and promoted to Domain Controller with AD DS role</li>
-                    <li><strong>Domain Configuration:</strong> Created forest/domain structure with proper DNS integration and site topology</li>
-                    <li><strong>Organizational Units (OUs):</strong> Designed OU structure reflecting business departments (IT, Sales, HR, Management)</li>
-                    <li><strong>User & Group Management:</strong> Created user accounts, security groups, and distribution lists with proper naming conventions</li>
-                    <li><strong>Group Policy Objects (GPOs):</strong> Implemented GPOs for password policies, software deployment, desktop restrictions, and security settings</li>
-                    <li><strong>File Server Integration:</strong> Configured shared folders with AD-based permissions (NTFS + share permissions)</li>
-                    <li><strong>Client Domain Joining:</strong> Joined Windows 10/11 workstations to domain for centralized authentication</li>
-                    <li><strong>Backup & Recovery:</strong> Configured Windows Server Backup and tested Active Directory restoration procedures</li>
-                    <li><strong>DHCP & DNS Services:</strong> Integrated DHCP server with DNS for automatic workstation registration</li>
-                </ul>
-            </div>
-            
-            <div class="image-placeholder">
-                📸 Screenshot: Active Directory Users and Computers console showing organized OU structure and user management interface
-            </div>
-            
-            <div class="outcome-box">
-                <h4>Outcome & Business Value</h4>
-                <p>
-                Created a scalable enterprise-grade identity management system supporting 50+ users with centralized security controls. This experience enables me to help growing businesses transition from workgroup to domain environments, implement proper access controls, and reduce IT management overhead. Skills include troubleshooting authentication issues, planning domain migrations, and implementing least-privilege security models.
-
-    <section id="contact-bottom" style="text-align: center;">
-           <div class="free-offer">
-                <h3>Ready to Solve Your Tech Problem?</h3>
-                <p>
-                Your next step is simple. Contact me directly for your free, no-obligation consultation.
-                Let's discuss the details of your issue and find the right solution.
-                </p>
-            <a href="index.html#contact" class="btn btn-primary">Contact Tech Connect Australia</a>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-body);">
-                Or call/text me directly: **0451 331 921**
-            </p>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Tech Connect Australia - Local IT Support</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Connecting Australia with Reliable IT Solutions</p>
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="networking">Networking</button>
+                <button class="filter-btn" data-filter="troubleshooting">Troubleshooting</button>
+                <button class="filter-btn" data-filter="hardware">Hardware</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="solutions">Complete Solutions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects -->
+    <section class="portfolio-projects">
+        <div class="container">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="networking solutions">
+                <div class="project-header">
+                    <div class="project-number">01</div>
+                    <div class="project-title">
+                        <h3>Small Business Network Infrastructure</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-building"></i> Client: Local Accounting Firm
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Business Network Setup">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Designed and implemented a secure, reliable network infrastructure for a small accounting firm. The solution included wired and wireless connectivity, network segmentation, and security measures to protect sensitive financial data.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Network Design</span>
+                                <span class="tech-tag">VLAN Configuration</span>
+                                <span class="tech-tag">Wireless Security</span>
+                                <span class="tech-tag">Firewall Rules</span>
+                                <span class="tech-tag">Network Monitoring</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Improved network reliability by 95% with proper redundancy measures</li>
+                                    <li>Implemented separate VLANs for guest and secure networks</li>
+                                    <li>Configured enterprise-grade wireless security protocols</li>
+                                    <li>Established network monitoring for proactive issue detection</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The client experienced zero network downtime since implementation and reported improved productivity due to reliable connectivity. Sensitive data is now properly segmented and secured.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card" data-category="hardware troubleshooting">
+                <div class="project-header">
+                    <div class="project-number">02</div>
+                    <div class="project-title">
+                        <h3>Office Computer System Overhaul</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-users"></i> Client: Marketing Agency
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Office Computer Setup">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Provided comprehensive computer system diagnostics, repairs, and optimizations for a marketing agency's office workstations. Addressed slow performance issues, hardware failures, and implemented preventative maintenance solutions.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Hardware Diagnostics</span>
+                                <span class="tech-tag">System Optimization</span>
+                                <span class="tech-tag">Malware Removal</span>
+                                <span class="tech-tag">Driver Updates</span>
+                                <span class="tech-tag">Performance Tuning</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Increased workstation performance by an average of 60%</li>
+                                    <li>Eliminated recurring system crashes through hardware replacements</li>
+                                    <li>Implemented automated maintenance schedules</li>
+                                    <li>Reduced support calls by 75% through proactive optimization</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>Client reported significant productivity improvements and reduced frustration with computer issues. Creative professionals now work efficiently without technical interruptions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card" data-category="software solutions">
+                <div class="project-header">
+                    <div class="project-number">03</div>
+                    <div class="project-title">
+                        <h3>Data Backup & Disaster Recovery System</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-shield-alt"></i> Client: Legal Services Provider
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1537724326059-2ea20251b9c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Data Backup System">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Implemented a comprehensive data protection solution for a legal services provider, ensuring business continuity and compliance with data retention requirements through automated backup systems and recovery procedures.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Cloud Backup</span>
+                                <span class="tech-tag">Local Backup Systems</span>
+                                <span class="tech-tag">Automation Scripts</span>
+                                <span class="tech-tag">Recovery Testing</span>
+                                <span class="tech-tag">Data Encryption</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Implemented 3-2-1 backup strategy (3 copies, 2 media types, 1 offsite)</li>
+                                    <li>Reduced backup window from 8 hours to 2 hours through optimization</li>
+                                    <li>Successfully tested full system recovery within 4 hours</li>
+                                    <li>Ensured compliance with legal data retention requirements</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The client now has peace of mind knowing critical legal documents are protected. The solution meets compliance requirements while ensuring quick recovery in case of data loss.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card" data-category="hardware solutions">
+                <div class="project-header">
+                    <div class="project-number">04</div>
+                    <div class="project-title">
+                        <h3>Custom High-Performance Workstation Builds</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-video"></i> Client: Video Production Studio
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Custom Workstation">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Designed and built custom high-performance workstations for a video production studio, optimizing each system for 4K video editing, 3D rendering, and multimedia production workloads.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Custom PC Assembly</span>
+                                <span class="tech-tag">Component Selection</span>
+                                <span class="tech-tag">Thermal Management</span>
+                                <span class="tech-tag">Performance Tuning</span>
+                                <span class="tech-tag">Cable Management</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Built 5 custom workstations tailored to specific production roles</li>
+                                    <li>Achieved 30% better performance than off-the-shelf alternatives</li>
+                                    <li>Implemented advanced cooling solutions for sustained performance</li>
+                                    <li>Reduced rendering times by up to 40% compared to previous systems</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The studio now meets tight production deadlines with faster rendering times. Custom-built systems provide better value and performance than commercial alternatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 5 -->
+            <div class="project-card" data-category="networking troubleshooting">
+                <div class="project-header">
+                    <div class="project-number">05</div>
+                    <div class="project-title">
+                        <h3>Home Network Optimization & Security Upgrade</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-home"></i> Client: Residential Customer
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1548092372-0d1bd4088e8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Home Network Setup">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Completely overhauled a residential customer's home network, resolving chronic connectivity issues, improving WiFi coverage throughout the property, and implementing robust security measures for smart home devices.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Mesh WiFi Systems</span>
+                                <span class="tech-tag">Network Security</span>
+                                <span class="tech-tag">Smart Home Integration</span>
+                                <span class="tech-tag">Bandwidth Optimization</span>
+                                <span class="tech-tag">Parental Controls</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Eliminated WiFi dead zones throughout the 2-story home</li>
+                                    <li>Increased internet speeds by 300% through proper configuration</li>
+                                    <li>Secured 25+ smart home devices with proper network segmentation</li>
+                                    <li>Implemented content filtering and parental controls</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The family now enjoys reliable internet access everywhere in their home. Parents have peace of mind with enhanced security and controls, while children can safely use educational resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 6 -->
+            <div class="project-card" data-category="software troubleshooting">
+                <div class="project-header">
+                    <div class="project-number">06</div>
+                    <div class="project-title">
+                        <h3>Remote Support & Software Migration Project</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-laptop-house"></i> Client: Remote Consultant
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Remote Support">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Provided comprehensive remote support to help a consultant migrate from an old computer system to a new setup, including data transfer, software installation, and configuration of remote working tools.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Remote Desktop Support</span>
+                                <span class="tech-tag">Data Migration</span>
+                                <span class="tech-tag">Software Configuration</span>
+                                <span class="tech-tag">VPN Setup</span>
+                                <span class="tech-tag">Cloud Integration</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Successfully migrated 500GB of data without loss</li>
+                                    <li>Configured secure remote access for client's work requirements</li>
+                                    <li>Set up automated backup for critical work files</li>
+                                    <li>Trained client on new software and productivity tools</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The consultant experienced zero downtime during the transition and now works more efficiently with modern tools. Secure remote access allows flexible working from any location.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 7 -->
+            <div class="project-card" data-category="solutions hardware">
+                <div class="project-header">
+                    <div class="project-number">07</div>
+                    <div class="project-title">
+                        <h3>Multi-Device Setup for Home Office</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-briefcase"></i> Client: Freelance Designer
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Home Office Setup">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Created an integrated home office setup for a freelance designer, including computer configuration, peripheral integration, file management systems, and workflow optimization for creative work.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Peripheral Integration</span>
+                                <span class="tech-tag">File Management</span>
+                                <span class="tech-tag">Workflow Optimization</span>
+                                <span class="tech-tag">Color Calibration</span>
+                                <span class="tech-tag">Backup Automation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Integrated 8 different devices (computers, tablets, printers, scanners)</li>
+                                    <li>Set up automated file synchronization across devices</li>
+                                    <li>Calibrated monitors for accurate color representation</li>
+                                    <li>Created efficient digital asset management system</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The designer now works seamlessly across multiple devices with organized files and consistent color accuracy. Automated workflows save several hours per week previously spent on manual tasks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 8 -->
+            <div class="project-card" data-category="software networking">
+                <div class="project-header">
+                    <div class="project-number">08</div>
+                    <div class="project-title">
+                        <h3>Business Software Deployment & Training</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-store"></i> Client: Retail Business
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Software Training">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Deployed new business software across a retail business's operations, including point-of-sale systems, inventory management, and customer relationship management tools, with comprehensive staff training.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Software Deployment</span>
+                                <span class="tech-tag">User Training</span>
+                                <span class="tech-tag">System Integration</span>
+                                <span class="tech-tag">Data Migration</span>
+                                <span class="tech-tag">Technical Documentation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Successfully trained 12 staff members with varying technical skills</li>
+                                    <li>Migrated 5 years of historical data without errors</li>
+                                    <li>Created user-friendly documentation and quick-reference guides</li>
+                                    <li>Integrated multiple software systems for seamless operations</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The business now operates more efficiently with integrated software systems. Staff are confident using the new tools, and management has better visibility into operations through improved reporting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 9 -->
+            <div class="project-card" data-category="troubleshooting solutions">
+                <div class="project-header">
+                    <div class="project-number">09</div>
+                    <div class="project-title">
+                        <h3>Proactive IT Maintenance Program</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Ongoing Since: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-clipboard-check"></i> Client: Multiple Small Businesses
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="IT Maintenance">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Implemented ongoing IT maintenance programs for several small businesses, providing regular system checks, updates, security monitoring, and proactive issue resolution to prevent downtime and data loss.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Preventive Maintenance</span>
+                                <span class="tech-tag">Security Monitoring</span>
+                                <span class="tech-tag">Patch Management</span>
+                                <span class="tech-tag">Performance Optimization</span>
+                                <span class="tech-tag">Proactive Support</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Reduced emergency support calls by 80% through proactive maintenance</li>
+                                    <li>Prevented 3 potential security breaches through timely updates</li>
+                                    <li>Improved system performance by average of 40% across clients</li>
+                                    <li>Maintained 99.9% uptime for all managed systems</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>Businesses experience fewer disruptions and can budget IT costs predictably. Proactive maintenance prevents small issues from becoming major problems, saving time and money.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 10 -->
+            <div class="project-card" data-category="hardware software">
+                <div class="project-header">
+                    <div class="project-number">10</div>
+                    <div class="project-title">
+                        <h3>Mobile Device Management & Security</h3>
+                        <div class="project-meta">
+                            <span class="meta-item">
+                                <i class="far fa-calendar"></i> Completed: 2024
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-mobile-alt"></i> Client: Professional Services Team
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-image">
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                                alt="Mobile Device Management">
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-overview">
+                            <h4><i class="fas fa-info-circle"></i> Project Overview</h4>
+                            <p>Configured and secured mobile devices for a professional services team, ensuring secure access to company resources, implementing data protection policies, and providing training on mobile security best practices.</p>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4><i class="fas fa-code"></i> Technologies & Skills Applied</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Mobile Device Management</span>
+                                <span class="tech-tag">Security Policies</span>
+                                <span class="tech-tag">Email Configuration</span>
+                                <span class="tech-tag">VPN Setup</span>
+                                <span class="tech-tag">Data Encryption</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-results">
+                            <div class="result-item">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Configured 15+ mobile devices with enterprise security standards</li>
+                                    <li>Implemented remote wipe capabilities for lost/stolen devices</li>
+                                    <li>Set up secure mobile access to company resources</li>
+                                    <li>Trained team on mobile security awareness and best practices</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="result-item">
+                                <h5>Client Benefits</h5>
+                                <p>The team can work securely from anywhere while protecting sensitive company data. Management has peace of mind knowing mobile devices meet security standards and can be remotely managed if needed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Portfolio CTA -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to Discuss Your IT Project?</h2>
+                <p>Our team is ready to apply our expertise to solve your technology challenges and help your business thrive.</p>
+                <div class="cta-actions">
+                    <a href="contact" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-check"></i> Schedule Consultation
+                    </a>
+                    <a href="tel:0451331921" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i> Call: 0451 331 921
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="brand-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-primary">TechConnect</span>
+                            <span class="brand-secondary">AUSTRALIA</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">Professional IT solutions for homes and businesses across Australia.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rabinpandey0/" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="services.html">Service Details</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html#network">Network Setup</a></li>
+                        <li><a href="services.html#repair">Computer Repair</a></li>
+                        <li><a href="services.html#backup">Data Protection</a></li>
+                        <li><a href="services.html#training">Tech Training</a></li>
+                        <li><a href="services.html#assembly">PC Assembly</a></li>
+                        <li><a href="services.html#remote">Remote Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0451331921">0451 331 921</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:support@techconnectaustralia.com.au">support@techconnectaustralia.com.au</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Hobart, Tasmania
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            7 Days: 7am - 11pm
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tech Connect Australia. All rights reserved.</p>
+                <p class="footer-legal">Professional IT Support Services | Connecting Australia with Technology Solutions</p>
+                <div class="footer-policy-links">
+                    <a href="privacy.html">Privacy Policy</a> | 
+                    <a href="terms.html">Terms of Service</a> | 
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
     <script src="script.js"></script>
+</body>
+</html>
