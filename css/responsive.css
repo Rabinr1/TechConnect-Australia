@@ -1,0 +1,23 @@
+@media (min-width: 640px) {
+    body {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-description {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding-inline: var(--space-lg);
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1240px;
+    }
+}

@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+p {
+    color: var(--color-text-secondary);
+}
+
+:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 65%, white);
+    outline-offset: 3px;
+}
+
+.brand-icon img:focus-visible,
+.nav-brand:focus-visible .brand-icon img,
+.footer-logo:focus-visible .brand-icon img {
+    outline: none;
+}
+
+.skip-to-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-120%);
+    background: var(--color-accent);
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    z-index: 2000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.skip-to-content:focus {
+    transform: translateY(1rem);
+}
