@@ -2887,7 +2887,7 @@ h4 {
 /* Responsive Design */
 @media (max-width: 1200px) {
     .container {
-        padding: 0 var(--spacing-md);
+        padding: 0 1.5rem;
     }
 
     .packages-grid,
@@ -2899,14 +2899,13 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-
     .hero-grid,
     .about-grid,
     .contact-grid,
     .project-content,
     .service-overview {
         grid-template-columns: 1fr;
-        gap: var(--spacing-lg);
+        gap: 2rem;
     }
 
     .services-grid,
@@ -2919,33 +2918,27 @@ h4 {
     }
 
     .service-tabs {
-        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
     }
+}
 
-    .topics-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .project-results {
+@media (max-width: 900px) {
+    .about-grid {
         grid-template-columns: 1fr;
-        gap: var(--spacing-md);
     }
 
-    .service-cta-box,
-    .quick-contact-box,
-    .free-consultation {
-        flex-direction: column;
-        text-align: center;
-        gap: var(--spacing-lg);
+    .profile-photo {
+        width: 200px;
+        height: 200px;
     }
 
-    .cta-content,
-    .consultation-content {
-        text-align: center;
+    .cookie-categories {
+        grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 768px) {
+    /* Typography */
     h1 {
         font-size: 2.5rem;
     }
@@ -2958,16 +2951,26 @@ h4 {
         font-size: 1.5rem;
     }
 
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    /* Container */
+    .container {
+        padding: 0 1rem;
+    }
+
+    /* Navigation */
     .nav-menu {
         position: fixed;
         top: 80px;
         left: -100%;
         width: 100%;
-        background-color: var(--white);
+        background-color: #ffffff;
         flex-direction: column;
-        padding: var(--spacing-lg);
-        box-shadow: var(--shadow-lg);
-        transition: var(--transition-normal);
+        padding: 2rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: left 0.3s ease;
         z-index: 999;
     }
 
@@ -2977,54 +2980,18 @@ h4 {
 
     .nav-links {
         flex-direction: column;
-        width: 100%;
-        text-align: center;
+        gap: 1rem;
     }
 
-    .nav-link {
-        padding: 0.75rem 0;
-        width: 100%;
-    }
-
-    .nav-cta {
-        margin-left: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-toggle {
-        display: flex;
-    }
-
-    .nav-toggle.active .toggle-bar:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .nav-toggle.active .toggle-bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .nav-toggle.active .toggle-bar:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-    }
-
-    .hero-actions,
-    .cta-actions,
-    .contact-actions {
-        flex-direction: column;
-        gap: var(--spacing-sm);
-    }
-
-    .hero-stats {
-        grid-template-columns: 1fr;
-    }
-
+    /* Grid Layouts */
     .services-grid,
     .advantages-grid,
     .values-grid,
     .footer-content,
-    .testimonials-grid,
-    .services-preview .services-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
     .packages-grid,
     .includes-grid,
     .benefits-list,
@@ -3032,21 +2999,146 @@ h4 {
         grid-template-columns: 1fr;
     }
 
-    .form-row {
-        grid-template-columns: 1fr;
+    /* Hero Sections */
+    .page-hero {
+        padding: 4rem 0;
+    }
+
+    .page-hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .page-hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Service Navigation */
+    .service-navigation {
+        position: relative;
+        top: 0;
+        transform: none !important;
+        margin-bottom: 0;
+    }
+
+    .service-details {
+        padding-top: 2rem;
     }
 
     .service-tabs {
-        grid-template-columns: repeat(2, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 10px;
     }
 
-    .comparison-table {
-        font-size: 0.9rem;
+    /* Tables */
+    .cookie-table,
+    .service-table {
+        font-size: 0.8rem;
+    }
+    
+    .cookie-table th,
+    .cookie-table td,
+    .service-table th,
+    .service-table td {
+        padding: 0.6rem 0.4rem;
+    }
+    
+    .cookie-table th,
+    .service-table th {
+        font-size: 0.75rem;
+        letter-spacing: 0.25px;
     }
 
-    .comparison-table th,
-    .comparison-table td {
-        padding: var(--spacing-sm);
+    /* Portfolio */
+    .project-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-image {
+        grid-template-columns: 1fr;
+    }
+
+    .project-results {
+        grid-template-columns: 1fr;
+    }
+
+    /* Forms */
+    .contact-form {
+        padding: 2rem 1.5rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-contact li {
+        justify-content: center;
+    }
+
+    .footer-policy-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Legal Pages */
+    .legal-content {
+        padding: 2rem 0;
+    }
+
+    .legal-content .container {
+        padding: 0 1rem;
+    }
+
+    /* Testimonials */
+    .testimonial-header {
+        flex-direction: column;
+    }
+
+    /* Error Pages */
+    .error-code h1 {
+        font-size: 3rem;
+    }
+
+    .error-actions {
+        flex-direction: column;
+    }
+
+    .error-actions .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Tables - Horizontal Scroll */
+    .cookie-table,
+    .service-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .cookie-table th,
+    .cookie-table td,
+    .service-table th,
+    .service-table td {
+        min-width: 120px;
+        white-space: nowrap;
+    }
+
+    /* Filter Buttons */
+    .filter-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-btn {
+        width: 100%;
+        max-width: 200px;
     }
 }
 
@@ -3071,10 +3163,88 @@ h4 {
         font-size: 1rem;
     }
 
+    /* Container */
     .container {
-        padding: 0 var(--spacing-sm);
+        padding: 0 0.75rem;
     }
 
+    /* Hero Sections */
+    .page-hero {
+        padding: 3rem 0;
+    }
+
+    .page-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .page-hero-content p {
+        font-size: 0.9rem;
+    }
+
+    /* Cards and Sections */
+    .service-card,
+    .package-card,
+    .benefit-item,
+    .security-item,
+    .testimonial-card,
+    .project-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Tables */
+    .cookie-table,
+    .service-table {
+        font-size: 0.75rem;
+        margin: 1rem 0;
+    }
+    
+    .cookie-table th,
+    .cookie-table td,
+    .service-table th,
+    .service-table td {
+        padding: 0.5rem 0.3rem;
+        min-width: 100px;
+    }
+
+    /* Forms */
+    .contact-form {
+        padding: 1.5rem 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* Navigation */
+    .navbar {
+        padding: 0.75rem 0;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    /* Legal Pages */
+    .legal-content {
+        padding: 1.5rem 0;
+    }
+
+    .update-banner,
+    .important-notice,
+    .contact-info-box {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    /* Other Elements */
     .hero-stats .stat-number {
         font-size: 1.5rem;
     }
@@ -3096,33 +3266,6 @@ h4 {
     .project-meta {
         flex-direction: column;
         gap: 0.5rem;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .footer-contact li {
-        justify-content: center;
-    }
-
-    .footer-policy-links {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .page-hero {
-        padding: var(--spacing-lg) 0;
-    }
-
-    .breadcrumb {
-        flex-wrap: wrap;
-    }
-
-    .faq-question {
-        padding: var(--spacing-sm);
-        font-size: 0.95rem;
     }
 }
 
